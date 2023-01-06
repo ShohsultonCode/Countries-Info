@@ -1,0 +1,32 @@
+// .wrapper {
+//     background: #F2F2F2;
+// }
+
+.card {
+  width: 16rem;
+  height: 336px;
+
+}
+.card-text{
+    color: #111517;
+    font-size: 15px;
+}
+.card-text>span{
+    color: #444444;
+    font-weight: 400;
+}
+.card-title{
+    font-size: 25px;
+    color: black;
+}
+.card-img-top{
+    height: 160px;
+    width: 16rem;
+    border-radius: 5px 5px 0 0;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
